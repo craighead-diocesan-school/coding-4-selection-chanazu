@@ -41,7 +41,22 @@ function age() {
     retire = ('old enough to retire')
   }else{
     retire = ('not yet old enough to retire')
-    
+  if (age >= 18) {
+      vote = 'old enough to vote';
+    } else {
+      vote = 'not yet old enough to vote';
+    }
+    if (age >= 16) {
+      drive = 'old enough to drive';
+    } else {
+      drive = 'not yet old enough to drive';
+    }
+  
+    alert('At ' + age + ' years old, ' + name + ', you are:\n' +
+          retire + '\n' +
+          vote + '\n' +
+          drive);
   }
   
+
 }

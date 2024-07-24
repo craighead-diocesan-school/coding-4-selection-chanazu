@@ -3,5 +3,6 @@
 // ####################################
 
 function moreThanTwo() {
-  // write your code here
+ let number = prompt ('What number do you want to compare to 2?')
+ if 
 }
